@@ -15,3 +15,5 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- 取消高亮
 keymap.set("n", "<leader>nh", ":nohl<CR>")
+
+keymap.set("n", "<leader>nv", ":e ~/AppData/Local/nvim/init.lua<CR>")
